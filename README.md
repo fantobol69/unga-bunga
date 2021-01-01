@@ -82,25 +82,32 @@ while (salir == false)
   if (jugadorActual == 0)  {Jugador0++; }
   else { Jugador1++;}
   break;
+
+
 case 2:
   do { cout << "Elegi El Numero de Palos Iniciales Entre 30 y 100: ";
   cin >> palitos; }
+  
   while (palitos < 30 or palitos > 100);
   break;
+
 
   case 3:
   do {
   cout << "Elegi El Numero Maximo De Sacadas: ";
   cin >> maxSacadas;
    if (maxSacadas < 3)
-   {cout << "Muy Corto" << endl; } else if (maxSacadas > 30 * palitos / 100) {
+  
+  {cout << "Muy Corto" << endl; } else if (maxSacadas > 30 * palitos / 100) {
    cout << "Muy Largo" << endl;} } while (maxSacadas < 3 or maxSacadas > 30 * palitos / 100);
  break;
+
 
   case 4:
   cout << "El Jugador 1 Ha Ganado " << Jugador0 << " Veces";
   cout << endl;
-  cout << "El Jugador 2 Ha Ganado " << Jugador1 << " Veces";
+ 
+ cout << "El Jugador 2 Ha Ganado " << Jugador1 << " Veces";
   cout << endl;
   break;
 
@@ -108,6 +115,9 @@ case 2:
   cout << "hasta el proximo juego!";
   salir = true;
   break;
+  
   }
+  
   }
+  
 }
