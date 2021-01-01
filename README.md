@@ -9,14 +9,22 @@ using namespace std;
 
 int main() {
 
+
   bool salir = false;
-  int palitos = PALITOS_INICIALES;
-  int maxSacadas = MAX_SACADAS;
-  int Jugador1 = 2;
-  int Jugador0 = 1;
-  while (salir == false)
-  {int op;do
-  {
+
+int palitos = PALITOS_INICIALES;
+
+int maxSacadas = MAX_SACADAS;
+
+int Jugador1 = 2;
+
+int Jugador0 = 1;
+
+while (salir == false)
+
+{int op;do
+
+{
         cout << "***El Ultimo Palito Pierde***" <<endl;
 
          cout << "     Menu"<<endl;
